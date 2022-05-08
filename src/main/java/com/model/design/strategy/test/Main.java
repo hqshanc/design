@@ -21,6 +21,10 @@ public class Main {
         redHeadDuck.swim();
         redHeadDuck.display();
         redHeadDuck.performFly();
+        redHeadDuck.setFlyable(new FlyNoway());
+        redHeadDuck.performFly();
+
+        System.out.println("------------");
         mallardDuck.performQuack();
         mallardDuck.swim();
         mallardDuck.display();

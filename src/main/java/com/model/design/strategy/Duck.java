@@ -32,6 +32,14 @@ public abstract class Duck {
         this.quackable = quackable;
     }
 
+    public void setFlyable(Flyable flyable){
+        this.flyable = flyable;
+    }
+
+    public void setQuackable(Quackable quackable){
+        this.quackable = quackable;
+    }
+
     public void swim(){
         System.out.println("游泳");
     }
